@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../layout/Root";
 import Home from "../pages/Home";
 import PetsSupplies from "../pages/PetsSupplies";
+
 import CategoryFiltered from "../pages/CategoryFiltered";
 import AddListing from "../pages/AddListing";
 import ListingDetails from "../pages/ListingDetails";
