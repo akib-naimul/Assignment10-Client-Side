@@ -1,16 +1,99 @@
-# React + Vite
+🌐 Live Client URL: Add your Netlify / Firebase / Surge link here
+🖥️ Live Server URL: https://assignment10-backend-server.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+PawMart is a full-stack MERN application built for pet owners, rescue groups, and customers looking to adopt pets or purchase pet-related products.
+The platform supports user authentication, CRUD operations, order management, category-based filtering, and downloadable reports — all wrapped in a modern responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features
 
-## React Compiler
+Here are the required five, but I’m giving you polished, professional ones:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Firebase Authentication (Email/Password + Google Login)
 
-## Expanding the ESLint configuration
+Secure authentication using Firebase.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Protected routes (Add Listing, My Listings, My Orders).
+
+Logged-in users persist on page refresh.
+
+2. Pet & Supply Marketplace
+
+Users can browse pets, food, accessories, care products.
+
+Category filtering + search options.
+
+Detailed listing pages with location, price, seller info, and adoption/order button.
+
+3. User Dashboard — Listings & Orders
+
+My Listings: Update & delete user-owned listings.
+
+My Orders: View adoption/product orders with full details.
+
+Download PDF Report (jsPDF + AutoTable).
+
+4. MongoDB-Backed API (Express.js + Vercel Ready)
+
+All data stored on MongoDB Atlas.
+
+REST API: Listings + Orders (CRUD + Filtering).
+
+Initial sample 20 listings seeded automatically.
+
+5. Beautiful Responsive UI
+
+Fully responsive on mobile, tablet, desktop.
+
+Modern styling using TailwindCSS + DaisyUI.
+
+Light/Dark theme toggle with persistence.
+
+Smooth animations and polished layout.
+
+Pages Included
+
+Home Page (Banner, Categories, Recent Listings, Extra Sections)
+
+Pets & Supplies Page
+
+Listing Details Page (Protected)
+
+Add Listing (Protected)
+
+My Listings (Protected)
+
+My Orders (Protected)
+
+Login / Register
+
+404 Not Found (Without Navbar/Footer per requirement)
+
+Technology Stack
+Frontend (Client)
+
+React (Vite)
+
+React Router DOM
+
+Firebase Authentication
+
+TailwindCSS + DaisyUI
+
+Axios / Fetch API
+
+React Hot Toast
+
+jsPDF + AutoTable
+
+Backend (Server)
+
+Node.js + Express.js
+
+MongoDB Atlas + Official Driver
+
+dotenv
+
+CORS
+
+Vercel Deployment Ready
