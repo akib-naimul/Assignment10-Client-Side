@@ -1,5 +1,5 @@
-🌐 Live Client URL: Add your Netlify / Firebase / Surge link here
-🖥️ Live Server URL: https://assignment10-backend-server.vercel.app/
+🌐 Live Client URL:  assignment10-client-side.pages.dev
+🖥️ Live Server URL: https://assignment10-backend-server.vercel.app
 
 
 PawMart is a full-stack MERN application built for pet owners, rescue groups, and customers looking to adopt pets or purchase pet-related products.
