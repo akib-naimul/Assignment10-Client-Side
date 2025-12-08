@@ -1,4 +1,4 @@
-🌐 Live Client URL:  assignment10-client-side.pages.dev
+🌐 Live Client URL:  https://assignment10-client-side.pages.dev
 🖥️ Live Server URL: https://assignment10-backend-server.vercel.app
 
 
